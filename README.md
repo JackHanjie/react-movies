@@ -6,8 +6,8 @@ docker-compose up -d
 
 ### 连接 MongoDB 验证是否连接数据库
 
-docker exec -it my_mongodb mongosh -u root -p 6332078qw --authenticationDatabase "admin"
+docker exec -it my_mongodb mongosh -u root -p `密码` --authenticationDatabase "admin"
 
 ### 连接 mongo-express 验证是否连接数据库
 
-http://localhost:27016/
+http://localhost:8081/
